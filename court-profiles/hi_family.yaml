@@ -1,0 +1,33 @@
+# Hawaii Family Court Profile
+court_id: hi_family
+court_name: "Hawaii Family Court"
+court_level: state_family
+jurisdiction: Hawaii
+
+formatting:
+  font_family: "Times New Roman"
+  font_size: 12
+  line_spacing: 2.0
+  margin_top: 1.0
+  margin_bottom: 1.0
+  margin_left: 1.0
+  margin_right: 1.0
+  page_number_location: "bottom center"
+
+citations:
+  case_citation_format: Bluebook
+  statute_citation_format: "Hawaii Revised Statutes"
+  pin_cite_required: true
+
+filing:
+  certificate_of_service_required: true
+  verification_required: true
+  exhibits_must_be_labeled: true
+  table_of_contents_required_pages: null
+  table_of_authorities_required: false
+
+special_rules:
+  caption_format: hawaii_standard
+  signature_block_required: true
+  pro_se_notice_required: true
+  local_rules: "Hawaii Family Court Rules"

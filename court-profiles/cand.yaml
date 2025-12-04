@@ -1,0 +1,34 @@
+# Northern District of California (CAND) Profile
+court_id: cand
+court_name: "United States District Court for the Northern District of California"
+court_level: federal_district
+jurisdiction: "California (Northern District)"
+
+formatting:
+  font_family: "Times New Roman"
+  font_size: 12
+  line_spacing: 2.0
+  margin_top: 1.0
+  margin_bottom: 1.0
+  margin_left: 1.0
+  margin_right: 1.0
+  page_number_location: "bottom center"
+
+citations:
+  case_citation_format: Bluebook
+  statute_citation_format: "U.S.C."
+  pin_cite_required: true
+
+filing:
+  max_pages: 25  # Without leave of court
+  certificate_of_service_required: true
+  verification_required: false
+  exhibits_must_be_labeled: true
+  table_of_contents_required_pages: 25
+  table_of_authorities_required: true
+
+special_rules:
+  ecf_filing_required: true
+  local_rules_apply: "CAND Local Rules"
+  civil_lr_compliance: true
+  meet_and_confer_required: true
